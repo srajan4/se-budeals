@@ -1,0 +1,9 @@
+Feature:
+As a user
+So that I can view Advertisements for what I want
+I want to find a suitable seller whose products meet my requirements
+Then I want the list of ads to be displayed
+Scenario:
+http://localhost:3000/deals
+"show" for "guitar"
+http://localhost:3000/deals/12
