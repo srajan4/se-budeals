@@ -27758,3 +27758,5 @@ Started GET "/deals/new" for 127.0.0.1 at 2015-05-14 16:52:39 -0300
 Processing by DealsController#new as HTML
   Rendered deals/new.html.erb (2.4ms)
 Completed 200 OK in 5.6ms (Views: 5.4ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+  [1m[36m (11.9ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
